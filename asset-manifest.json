@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/dileepmarupudi-portfolio/static/css/main.1ff25511.css",
+    "main.js": "/dileepmarupudi-portfolio/static/js/main.867c44fe.js",
+    "static/media/dileep.jpg": "/dileepmarupudi-portfolio/static/media/dileep.a173bb887716f7fc8e72.jpg",
+    "index.html": "/dileepmarupudi-portfolio/index.html",
+    "main.1ff25511.css.map": "/dileepmarupudi-portfolio/static/css/main.1ff25511.css.map",
+    "main.867c44fe.js.map": "/dileepmarupudi-portfolio/static/js/main.867c44fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ff25511.css",
+    "static/js/main.867c44fe.js"
+  ]
+}
