@@ -1,0 +1,62 @@
+.education-section {
+    background-color: #031b2f;
+    padding: 5rem 2rem;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .education-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #00bfff;
+    margin-bottom: 3rem;
+  }
+  
+  .education-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  .education-card {
+    background-color: #0a2a43;
+    border: 2px solid #00bfff;
+    border-radius: 16px;
+    padding: 0.5rem 2.5rem;
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 191, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .education-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 30px rgba(0, 191, 255, 0.4);
+  }
+  
+  .education-institution {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+  }
+  
+  .education-degree {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #ccc;
+    margin-bottom: 0.5rem;
+  }
+  
+  .education-dates {
+    font-size: 1rem;
+    color: #aaa;
+    margin-bottom: 1rem;
+  }
+  
+  .education-coursework {
+    font-size: 1rem;
+    color: #ddd;
+    line-height: 1.6;
+  }
+  

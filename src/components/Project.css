@@ -1,0 +1,82 @@
+.projects-section {
+    background-color: #031b2f;
+    color: #fff;
+    padding: 4rem 2rem;
+  }
+  
+  .section-heading {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #00bfff;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    position: relative;
+    margin-left: 2rem;
+  }
+  
+  .projects-container::before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background-color: #00bfff;
+  }
+  
+  .project-card {
+    position: relative;
+    background-color: #052941;
+    border: 2px solid #00bfff;
+    padding: 1.5rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 191, 255, 0.2);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    animation: slideFadeIn 1s ease forwards;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 30px rgba(0, 191, 255, 0.4);
+  }
+  
+  .project-card::before {
+    content: '';
+    position: absolute;
+    left: -34px;
+    top: 20px;
+    width: 14px;
+    height: 14px;
+    background-color: #00bfff;
+    border-radius: 50%;
+    border: 2px solid #031b2f;
+  }
+  
+  .project-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0.7rem;
+  }
+  
+  .project-details {
+    font-size: 1.05rem;
+    color: #cccccc;
+    line-height: 1.6;
+  }
+  
+  @keyframes slideFadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
